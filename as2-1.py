@@ -4,9 +4,9 @@ c=float(input('num 3'))
 d=float(input('num 4'))
 e=float(input('num 5'))
 f=(a+b+c+d+e)/5
-if f>17:
+if 17<=f:
     print('momtaz')
-if 12<f<17:
+if 12<=f<17:
     print('normal')
-else:
+if 12>f:
     print('mashroot')
